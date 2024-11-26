@@ -7,7 +7,11 @@
 
 ### Functionality and features
 
-Below are some examples of the Urgent and Soon symbols I intend to try out and implement during development of this app, whichever looks and works the best on the Problem posts.
+- It is intended for council staff, such as a council representatives, to be authorised as admin, and have some moderation control over users' posts, such as for if posts are inappropriate or illegal, according to the relevant laws.
+
+- Problem posts will feature a comments section, such as for users to indicate the status of the Problem.
+
+- Problem posts will also feature coloured symbols, Red and Yellow, to indicate whether the Problem is Urgent or should be dealt with Soon. Below are some examples of the Urgent and Soon symbols I intend to try out and implement during development of this app, whichever looks and works the best on the Problem posts.
 
 #### Yellow Square symbol
 
@@ -52,6 +56,15 @@ When drawing up this dataflow diagram, I endeavoured to follow the conventions o
 ![Application Architecture](./docs/Application-architecture1.png)
 
 ## User Stories
+
+The users of CouncilNote will be council staff of whichever council wants to use this app, anywhere in the world, along with residents and other workers in that area.
+
+#### Council Staff
+- As a council staff member, such as a Mayor or Councillor
+
+#### Residents
+
+#### Other Workers
 
 ## Wireframes
 
