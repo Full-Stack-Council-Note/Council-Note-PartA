@@ -114,24 +114,24 @@ I have used Trello to plan and keep track of the stages of development of this a
 
 #### Trello Dataflow Diagram
 
-![Trello2](./docs/trello-CN2.png)
+![Trello2](./docs/Trello-CN2.png)
 
 #### Trello Application Architecture Diagram
 
-![Trello3](./docs/trello-CN3.png)
+![Trello3](./docs/Trello-CN3.png)
 
 #### Trello Wireframes
 
-![Trello4](./docs/trello-CN4.png)
+![Trello4](./docs/Trello-CN4.png)
 
 #### Trello Starting Coding
 
 During the week of 17 Nov to 24 Nov 2024, I started some coding, at least trialling, of the frontend and backend to see how this MERN app will piece together and work, and to have some ideas for the Dataflow Diagram, Application Architecture Diagram and Wireframes.
 
-![Trello5a](./docs/trello-CN5a.png)
+![Trello5a](./docs/Trello-CN5a.png)
 
-![Trello5b](./docs/trello-CN5b.png)
+![Trello5b](./docs/Trello-CN5b.png)
 
 #### Trello Successful Deployment
 
-![Trello6](./docs/trello-CN6.png)
+![Trello6](./docs/Trello-CN6.png)
