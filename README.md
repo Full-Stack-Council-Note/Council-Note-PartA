@@ -7,7 +7,7 @@
 
 ### Functionality and features
 
-- It is intended for council staff, such as a council representatives, to be authorised as admin, and have some moderation control over users' posts, such as for if posts are inappropriate or illegal, according to the relevant laws.
+- It is intended for council staff, such as a council representative, to be authorised as admin, and have some moderation control over users' posts, such as for in case posts are inappropriate or illegal, according to the relevant laws.
 
 - Problem posts will feature a comments section, such as for users to indicate the status of the Problem.
 
