@@ -18,7 +18,7 @@ CouncilNote will be particularly useful for large council areas, in terms of pop
 
 - There will be CRUD functionality on all Problems and Notices posts, and comments on posts will be deleted when the posts are deleted.
 
-- The Problems and Notices pages will feature pagination to allow users to search for previous posts.
+- The Problems and Notices pages will feature pagination to allow users to search for previous posts, and each post will display the date it was added.
 
 - The Problems and Notices pages will each feature an input form for users to submit their Problem or Notice. Users will firstly input a title and description of the Problem or Notice.
 
