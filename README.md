@@ -175,7 +175,7 @@ I have used Trello to plan and keep track of the stages of development of this a
 
 #### Trello Overall
 
-![Trello1](./docs/trello-CN1.png)
+![Trello1](./docs/Trello-overall.png)
 
 #### Trello Dataflow Diagram
 
@@ -196,6 +196,8 @@ During the week of 17 Nov to 24 Nov 2024, I started some coding, at least triall
 ![Trello5a](./docs/Trello-CN5a.png)
 
 ![Trello5b](./docs/Trello-CN5b.png)
+
+![Trello5c](./docs/Trello-CN5c.png)
 
 #### Trello Successful Deployment
 
