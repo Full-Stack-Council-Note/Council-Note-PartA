@@ -85,6 +85,12 @@ The target audience of CouncilNote is anyone who lives and works in a particular
 
 When drawing up this dataflow diagram, I endeavoured to follow the conventions of dataflow diagrams, mainly Yourdon and Coad, along with my ideas and understanding of the app structure so far.
 
+Earlier on, I thought User and UserProfile would be separate models/schemas, but upon figuring out the backend some more and getting it working without errors on 29 Nov 2024, it looks like User profiles/ the MyProfile page will be populated from a User schema, which includes "about" and "profilephoto".
+
+![Dataflow Diagram2](./docs/dataflow-diagramEdit3.png)
+
+Earlier version of the dataflow diagram prior to 29 Nov 2024, with separate User and Userprofile schemas:
+
 ![Dataflow Diagram](./docs/dataflow-diagramEdit1.png)
 
 ## Application Architecture Diagram
