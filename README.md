@@ -10,13 +10,13 @@ CouncilNote will be particularly useful for large council areas, in terms of pop
 
 ### Functionality and features
 
-- It is intended for council staff, such as a council representative, to be authorised as admin, and have some moderation control over users' posts, such as for in case posts are inappropriate or illegal, according to the relevant laws. A council staff rep can delete users' posts if they are deemed inappropriate or illegal.
+- It is intended for council staff, such as a council representative, to be authorised as admin, and have some moderation control over users' posts, such as for in case posts are inappropriate or illegal, according to the relevant laws. A council staff rep can delete users' posts if they are deemed inappropriate or illegal. I'll probably add a short statement on the Problems and Notices pages about Users' posts being appropriate and legal, or that they should contact emergency services instead about some Problems.
 
 - Every user of CouncilNote will Register and Login in order to use this app, which can help ensure the legitimacy of users and their posts and comments.
 
-- Every user will have their own UserProfile, MyProfile, which will include an "about" section which can be filled in and edited by the user, and users can upload a profile photo of themselves. UserProfiles will include a list or record of recent Problems and Notices posts by users. Hence, with the UserProfiles, users can know about regular contributors for instance, and some of the topics of their posts. Functionality for users to close their account may be included on MyProfile in future.
+- Every user will have their own User profile, MyProfile, which will include an "about" section which can be filled in and edited by the user, and users can upload a profile photo of themselves. User profiles will include a list or record of recent Problems and Notices posts by users. Hence, with the User profiles, users can know about regular contributors for instance, and some of the topics of their posts. Functionality for users to close their account may be included on MyProfile in future.
 
-- There will be CRUD functionality on all Problems and Notices posts, and comments on posts will be deleted when the posts are deleted.
+- There will be CRUD functionality on all Problems and Notices posts, along with the Comments on these.
 
 - The Problems and Notices pages will feature pagination to allow users to search for previous posts, and each post will display the date it was added.
 
@@ -28,7 +28,7 @@ CouncilNote will be particularly useful for large council areas, in terms of pop
 
 - Problem posts will feature a comments section, such as for users to indicate the status of the Problem. Likewise, Notice posts will feature a comments section, such as for users to keep updated on the latest happenings.
 
-The designs of the Problems, Notices, and MyProfile pages, as displayed in the Wireframes, are partly based on personal experiences of using bulletin boards and blogs pages, such as those which feature an input form which slides up from the bottom of the page, both for adding and editing posts. There is a bulletin board I use which also features a profile page of each user, which includes a list of their recent posts. So some of these features and designs are intended for CouncilNote.
+There may be a few other additions to the features and functions during development, depending what I find works out, such as perhaps more of a search filter for the Problem and Notice posts, and maybe adding an optional Contact details section for Users' profiles.
 
 Below are some examples of the Urgent and Soon symbols I intend to try out and implement during development of this app, whichever looks and works the best on the Problem posts.
 
@@ -71,7 +71,7 @@ The target audience of CouncilNote is anyone who lives and works in a particular
 
 - Back-end: Express.js, Mongoose and Node.js are used to handle the server-side logic of the application.
 
-- Database: MongoDB is used to store data of Users, including their login information, the UserProfiles, Problems, Notices, and Comments.
+- Database: MongoDB is used to store data of Users, including their login and profile information, Problems, Notices, and Comments.
 
 - Testing: Insomnia and Jest
 
@@ -112,7 +112,7 @@ The users of CouncilNote will be council staff of whichever council wants to use
 
 - As a resident, I want to be able to inform and update people on certain events and activities I'm hosting in the council area, via the Notices posts and comments.
 
-- As a resident, I want another way to know about upcoming events and activities nearby, via the Notices posts and comments, and I would like to know about other locals, via their UserProfile information.
+- As a resident, I want another way to know about upcoming events and activities nearby, via the Notices posts and comments, and I would like to know about other locals, via their User Profile information.
 
 - As a resident I want to be able to directly inform council staff and others of problems I encounter in the area, such as street lights not working, lost pets or fallen trees.
 
@@ -130,6 +130,8 @@ I have drawn up the wireframes in this Miro board, to the best of my understandi
 
 https://miro.com/app/board/uXjVLAhsPcw=/
 
+The designs of the Problems, Notices, and MyProfile pages, as displayed in the Wireframes, are partly based on personal experiences of using bulletin boards and blogs pages, such as those which feature an input form which slides up from the bottom of the page, both for adding and editing posts. There is a bulletin board I use which also features a profile page of each user, which includes a list of their recent posts. So some of these features and designs are intended for CouncilNote.
+
 #### Mobile: Login, Create Account, Problems
 
 ![Mobile1](./docs/CN-mobile1a.jpg)
@@ -142,35 +144,35 @@ https://miro.com/app/board/uXjVLAhsPcw=/
 
 ![Mobile6](./docs/CN-mobile6.jpg)
 
-#### Tablet Login
+#### Tablet: Login
 
 ![Tablet Login](./docs/CN-TabletLogin.jpg)
 
-#### Tablet Problems
+#### Tablet: Problems
 
 ![Tablet Problems](./docs/CN-TabletProblems.jpg)
 
-#### Tablet Notices
+#### Tablet: Notices
 
 ![Tablet Notices](./docs/CN-TabletNotices.jpg)
 
-#### Desktop Login
+#### Desktop: Login
 
 ![Desktop Login](./docs/CN-desktopLogin.jpg)
 
-#### Desktop MyProfile
+#### Desktop: MyProfile
 
 ![Desktop MyProfile](./docs/CN-desktopMyProfile2.jpg)
 
-#### Desktop Problems page with comments
+#### Desktop: Problems page with comments
 
 ![Desktop Problems Comments](./docs/CN-desktopProblemComments.jpg)
 
-#### Desktop Problems Form
+#### Desktop: Problems Form
 
 ![Desktop Problems Form](./docs/CN-desktopProblemForm.jpg)
 
-#### Desktop Problems page
+#### Desktop: Problems page
 
 ![Desktop Problems](./docs/CN-desktopProblems2.jpg)
 
@@ -181,7 +183,13 @@ I have used Trello to plan and keep track of the stages of development of this a
 
 #### Trello Overall
 
-![Trello1](./docs/Trello-overall.png)
+The CouncilNote Trello board as on 1 Dec 2024:
+
+![Trello7](./docs/Trello-CN7.png)
+
+I started one of the tests successfully on 30 Nov 2024.
+
+https://trello.com/b/IhyWrrV7/council-note
 
 #### Trello Dataflow Diagram
 
